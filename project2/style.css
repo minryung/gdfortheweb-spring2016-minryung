@@ -95,7 +95,7 @@ div {
   padding-right: 3px;
   padding-left: 10px;
   position: relative;
-  letter-spacing: -3px;
+  letter-spacing: -1px;
 
 }
 
@@ -138,7 +138,7 @@ img {
     width:300%; height: 40%;
     font: 300%/130% "palatino";
     position: relative;
-    letter-spacing: -3px;
+    letter-spacing: -1px;
     text-align: left;
 }
 
