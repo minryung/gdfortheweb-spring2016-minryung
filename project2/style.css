@@ -27,7 +27,7 @@ div {
 
 .header {
   background-color: white;
-  width:83%; height: 40%;
+  width:63%; height: 40%;
   color: black;
   font: 460%/100% "Helvetica";
   border-top:5px solid black; 
@@ -41,10 +41,6 @@ div {
   padding-left: 10px;
   position: relative;
  
-}
-
-.header:hover {
-	background-color: red;	
 }
 
 .verdana_header {
@@ -84,6 +80,26 @@ div {
 
 }
 
+.palatino_header {
+  background-color: white;
+  width:28%; height: 40%;
+  color: black;
+  font: 460%/100% "palatino";
+  border-top:5px solid black; 
+  border-right:5px solid black;
+  border-bottom:5px solid black; 
+  border-left:5px solid black;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
+  position: relative;
+  letter-spacing: -3px;
+
+}
+
+
 
 img {
     width: 50%;
@@ -117,10 +133,17 @@ img {
 }
 
 
-.verdana_content:hover { c
+.palatino_content {
+    color: black;
+    width:300%; height: 40%;
+    font: 300%/130% "palatino";
+    position: relative;
+    letter-spacing: -3px;
+    text-align: left;
 }
 
-
+.verdana_content:hover { c
+}
 
 
 .content {
