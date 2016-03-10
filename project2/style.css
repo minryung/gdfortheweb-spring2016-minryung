@@ -99,6 +99,25 @@ div {
 
 }
 
+.helvetica_header {
+  background-color: white;
+  width:28%; height: 40%;
+  color: black;
+  font: 460%/100% "Helvetica";
+  border-top:5px solid black; 
+  border-right:5px solid black;
+  border-bottom:5px solid black; 
+  border-left:5px solid black;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
+  position: relative;
+  letter-spacing: -1px;
+
+}
+
 
 
 img {
@@ -132,6 +151,14 @@ img {
     text-align: left;
 }
 
+.helvetica_content {
+    color: black;
+    width:300%; height: 40%;
+    font: 300%/130% "Helvetica";
+    position: relative;
+    letter-spacing: -3px;
+    text-align: left;
+}
 
 .palatino_content {
     color: black;
@@ -229,3 +256,31 @@ border-top:5px solid black;
   padding-right: 3px;
   padding-left: 10px;
 }
+
+.content4 {
+  background-color: white;
+    width:26%; height: 40%;
+  color: black;
+  font: 460%/100% "Helvetica";
+border-top:5px solid black; 
+    border-right:5px solid black;
+    border-bottom:5px solid black; 
+    border-left:5px solid black;
+    position: relative;
+    text-align: center;
+    padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
+     position: relative;
+}
+
+.content4:hover {
+  background-color: yellow; 
+  font: 380%/100% "Helvetica";
+  letter-spacing: -1px;
+    padding-top: 10px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
+  }
