@@ -63,8 +63,28 @@ div {
   padding-left: 10px;
   position: relative;
   letter-spacing: -3px;
+}
+
+.courier_header {
+  background-color: white;
+  width:28%; height: 40%;
+  color: black;
+  font: 460%/100% "Courier";
+  border-top:5px solid black; 
+  border-right:5px solid black;
+  border-bottom:5px solid black; 
+  border-left:5px solid black;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
+  position: relative;
+  letter-spacing: -3px;
 
 }
+
+
 img {
     width: 50%;
     height: auto; 
@@ -87,10 +107,10 @@ img {
     text-align: left;
 }
 
-.verdana_content_1 {
-    color: yellow;
+.courier_content {
+    color: black;
     width:300%; height: 40%;
-    font: 100%/130% "Verdana";
+    font: 300%/130% "courier";
     position: relative;
     letter-spacing: -3px;
     text-align: left;
