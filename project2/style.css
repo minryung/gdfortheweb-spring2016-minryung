@@ -17,17 +17,28 @@ div {
   font-size: 80%;
 }
 
+.container {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 20px;
+
+}
+
 .header {
   background-color: white;
-  width:83%; height: 55%;
+  width:83%; height: 40%;
   color: black;
   font: 460%/100% "Helvetica";
-  border-top:10px solid black; 
+  border-top:5px solid black; 
   border-right:5px solid black;
   border-bottom:5px solid black; 
   border-left:5px solid black;
   text-align: center;
   padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
   position: relative;
  
 }
@@ -41,7 +52,7 @@ div {
   width:28%; height: 40%;
   color: black;
   font: 460%/100% "Verdana";
-  border-top:10px solid black; 
+  border-top:5px solid black; 
   border-right:5px solid black;
   border-bottom:5px solid black; 
   border-left:5px solid black;
@@ -52,12 +63,13 @@ div {
   padding-left: 10px;
   position: relative;
   letter-spacing: -3px;
+
 }
 img {
-    width: 100%;
+    width: 50%;
     height: auto; 
     max-width: 500px;
-    float: right;
+    float: left
     border-top:10px solid black; 
     border-right:5px solid black;
     border-bottom:5px solid black; 
@@ -71,10 +83,10 @@ img {
 .verdana_content {
     color: black;
     width:300%; height: 40%;
-    font: 300%/130% "Verdana";
+    font: 300%/145% "Verdana";
     position: relative;
     text-align: center;
-    letter-spacing: -3px;
+    letter-spacing: -2px;
     text-align: left;
 }
 
@@ -96,14 +108,17 @@ img {
 
 .content {
 	background-color: white;
-  	width:28%; height: 55%;
+  	width:28%; height: 40%;
   	color: black;
   	font: 460%/100% "Helvetica";
-  	border-top:10px solid black; 
+  	border-top:5px solid black; 
   	border-right:5px solid black;
   	border-bottom:5px solid black; 
   	border-left:5px solid black;
-  	padding-top: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+    padding-left: 10px;
     position: relative;
     text-align: center;
     position: relative;
@@ -118,16 +133,19 @@ img {
 
 .content2 {
 	background-color: white;
-    width:22%; height: 55%;
+    width:22%; height: 40%;
       color: black;
   font: 460%/100% "Helvetica";
-	border-top:10px solid black; 
+	border-top:5px solid black; 
   	border-right:5px solid black;
   	border-bottom:5px solid black; 
   	border-left:5px solid black;
     position: relative;
     text-align: center;
     padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
      position: relative;
 }
 .content2:hover {
@@ -138,16 +156,19 @@ img {
 
 .content3 {
 	background-color: white;
-    width:26%; height: 55%;
+    width:26%; height: 40%;
   color: black;
   font: 460%/100% "Helvetica";
-border-top:10px solid black; 
+border-top:5px solid black; 
   	border-right:5px solid black;
   	border-bottom:5px solid black; 
   	border-left:5px solid black;
     position: relative;
     text-align: center;
     padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 10px;
      position: relative;
 }
 
