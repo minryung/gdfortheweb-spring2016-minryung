@@ -1,239 +1,143 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
 body {
-	 background-color: blue;
-	 background-image: url("bg.jpg")
-	<span style="cursor:auto">auto</span>
+    font-family: 'courier';
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+h1 {
+    margin: 0 0 0.5em 0;
+    font-size: 4vw;
+    line-height: 0.9em;
+    font-weight: 100;
+    letter-spacing: -0.0225em;
 }
 
 h2 {
-  background-color: blue;
-  width: 100%; height: 20%;
-  font-size: 80%; "Verdana";
+    margin: 0 0 3em 0;
+    text-transform: uppercase;
+    letter-spacing: 0.0225em;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 
-div {
-  background-color: blue;
+h3 {
+    margin: 0 0 0.5em 0;
+    font-size: 4vw;
+    line-height: 0.9em;
+    font-weight: thick;
+    letter-spacing: -0.0225em;
 }
+
+p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.7em;
+    text-align: left;
+    letter-spacing: -0.02em;
+}
+
+.container8 {
+    font-family: 'helvetica';
+    margin: 12rem 0rem 0rem 0rem;
+    color: black;
+    background-color: #f2f2f2;
+    font-size: 15vw;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
 
 
 .container {
-    margin-top: 20px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 20px;
-
-}
-
-.verdana {
+    font-family: 'helvetica';
+    padding: 1rem 45rem 2rem 17rem;
     color: black;
-    font: 200%/110% "verdana";
-    float: left
-    letter-spacing: -20px;
-
+    background-color: #f2f2f2;
+    position: fixed;
+    font-weight: 900;
+    
 }
 
-.courier {
+
+.container1 {
+    font-family: 'verdana';
+    padding: 10rem 5rem 10rem 10rem;
+    margin: 0em 7em 0em 7em;
     color: black;
-    font: 200%/110% "courier";
-    float: left
-    letter-spacing: -2px;
 }
 
-.palatino {
+.container1:hover {
+    background-color: blue;
+}
+
+.container2 {
+    font-family: 'courier';
+    padding: 10rem 5rem 10rem 10rem;
+    margin: 0em 7em 0em 7em;
     color: black;
-    font: 200%/110% "palatino";
-    float: left
-    letter-spacing: -2px;
+}
+
+.container2:hover {
+    background-color: red;
 }
 
 
-.helvetica {
+
+.container3 {
+    font-family: 'helvetica';
+    font-weight: 600;
+    padding: 10rem 5rem 10rem 10rem;
+    margin: 0em 7em 0em 7em;
     color: black;
-    font: 200%/120% "helvetica";
-    float: left
-    letter-spacing: -2px;
+}
 
+.container3:hover {
+    background-color: yellow;
 }
 
 
-.impact {
+.container4 {
+    font-family: 'palatino';
+    padding: 10rem 5rem 10rem 10rem;
+    margin: 0em 7em 0em 7em;
     color: black;
-    font: 200%/130% "Impact";
-    float: left
 }
 
-.comicsans {
+.container4:hover {
+    background-color: #FF6699;
+}
+
+.container5 {
+    font-family: 'Comic Sans MS';
+    padding: 10rem 5rem 10rem 10rem;
+    margin: 0em 7em 0em 7em;
     color: black;
-    font: 200%/120% "Comic Sans MS";
-    float: left
-
 }
 
+.container5:hover {
+    background-color: #33CCFF;
+}
 
-.header {
-    background-color: white;
-    width:63%; height: 40%;
+.container6 {
+    font-family: 'Impact';
+    padding: 10rem 5rem 10rem 10rem;
+    margin: 0em 7em 0em 7em;
     color: black;
-    font: 460%/100% "Helvetica";
-    border-top:5px solid black; 
-    border-right:5px solid black;
-    border-bottom:5px solid black; 
-    border-left:5px solid black;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
-    padding-left: 10px;
-    position: relative;
- 
-}
-
-.verdana_header {
-    background-color: white;
-    width:28%; height: 40%;
-    color: black;
-    font: 460%/100% "Verdana";
-    border-top:5px solid black; 
-    border-right:5px solid black;
-    border-bottom:5px solid black; 
-    border-left:5px solid black;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
-    padding-left: 10px;
-    position: relative;
-    letter-spacing: -3px;
-}
-
-.courier_header {
-    background-color: white;
-    width:28%; height: 40%;
-    color: black;
-    font: 460%/100% "Courier";
-    border-top:5px solid black; 
-    border-right:5px solid black;
-    border-bottom:5px solid black; 
-    border-left:5px solid black;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
-    padding-left: 10px;
-    position: relative;
-    letter-spacing: -3px;
-
-}
-
-.palatino_header {
-    background-color: white;
-    width:28%; height: 40%;
-    color: black;
-    font: 460%/100% "palatino";
-    border-top:5px solid black; 
-    border-right:5px solid black;
-    border-bottom:5px solid black; 
-    border-left:5px solid black;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
-    padding-left: 10px;
-    position: relative;
-    letter-spacing: -1px;
-
-}
-
-.helvetica_header {
-    background-color: white;
-    width:28%; height: 40%;
-    color: black;
-    font: 460%/100% "Helvetica";
-    border-top:5px solid black; 
-    border-right:5px solid black;
-    border-bottom:5px solid black; 
-    border-left:5px solid black;
-    text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-right: 3px;
-    padding-left: 10px;
-    position: relative;
-    letter-spacing: -1px;
-
+    background-color: green;
+    font-weight: normal;
 }
 
 
 
-img {
-    width: 50%;
-    height: auto; 
-    max-width: 500px;
-    float: left
-    border-top:10px solid black; 
-    border-right:5px solid black;
-    border-bottom:5px solid black; 
-    border-left:5px solid black;
-}
 
 
-.verdana_content {
-    color: black;
-    width:300%; height: 40%;
-    font: 300%/145% "Verdana";
-    position: relative;
-    text-align: center;
-    letter-spacing: -2px;
-    text-align: left;
-}
-
-.courier_content {
-    color: black;
-    width:300%; height: 40%;
-    font: 300%/130% "courier";
-    position: relative;
-    letter-spacing: -3px;
-    text-align: left;
-}
-
-.helvetica_content {
-    color: black;
-    width:300%; height: 40%;
-    font: 300%/130% "Helvetica";
-    position: relative;
-    letter-spacing: -3px;
-    text-align: left;
-}
-
-.palatino_content {
-    color: black;
-    width:300%; height: 40%;
-    font: 300%/130% "palatino";
-    position: relative;
-    letter-spacing: -1px;
-    text-align: left;
-}
-
-.verdana_content:hover { c
-}
-
-
-.content3:hover {
-	background-color: yellow;	
-	font: 380%/100% "Palatino";
-	letter-spacing: -1px;
-  padding-top: 10px;
-  padding-bottom: 3px;
-  padding-right: 3px;
-  padding-left: 10px;
-}
-
-.content4:hover {
-  background-color: yellow; 
-  font: 380%/100% "Helvetica";
-  letter-spacing: -1px;
-  padding-top: 10px;
-  padding-bottom: 3px;
-  padding-right: 3px;
-  padding-left: 10px;
-  }
