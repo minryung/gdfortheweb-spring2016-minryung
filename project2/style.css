@@ -26,7 +26,7 @@ div {
 
 .verdana {
     color: black;
-    font: 6000%/110% "verdana";
+    font: 200%/110% "verdana";
     float: left
     letter-spacing: -20px;
 
@@ -34,14 +34,14 @@ div {
 
 .courier {
     color: black;
-    font: 6000%/110% "courier";
+    font: 200%/110% "courier";
     float: left
     letter-spacing: -2px;
 }
 
 .palatino {
     color: black;
-    font: 6000%/110% "palatino";
+    font: 200%/110% "palatino";
     float: left
     letter-spacing: -2px;
 }
@@ -49,7 +49,7 @@ div {
 
 .helvetica {
     color: black;
-    font: 6000%/120% "helvetica";
+    font: 200%/120% "helvetica";
     float: left
     letter-spacing: -2px;
 
@@ -58,13 +58,13 @@ div {
 
 .impact {
     color: black;
-    font: 6000%/130% "Impact";
+    font: 200%/130% "Impact";
     float: left
 }
 
 .comicsans {
     color: black;
-    font: 6000%/120% "Comic Sans MS";
+    font: 200%/120% "Comic Sans MS";
     float: left
 
 }
