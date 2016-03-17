@@ -63,7 +63,6 @@ p {
     padding: 1rem 50rem 2rem 17rem;
     color: black;
     background-color: #f2f2f2;
-    position: fixed;
     font-weight: 900;
     
 }
@@ -74,24 +73,18 @@ p {
     padding: 10rem 5rem 10rem 10rem;
     margin: 0em 7em 0em 7em;
     color: black;
-}
-
-.container1:hover {
     background-color: blue;
 }
+
+
 
 .container2 {
     font-family: 'courier';
     padding: 10rem 5rem 10rem 10rem;
     margin: 0em 7em 0em 7em;
     color: black;
-}
-
-.container2:hover {
     background-color: red;
 }
-
-
 
 .container3 {
     font-family: 'helvetica';
@@ -99,9 +92,6 @@ p {
     padding: 10rem 5rem 10rem 10rem;
     margin: 0em 7em 0em 7em;
     color: black;
-}
-
-.container3:hover {
     background-color: yellow;
 }
 
@@ -111,22 +101,18 @@ p {
     padding: 10rem 5rem 10rem 10rem;
     margin: 0em 7em 0em 7em;
     color: black;
-}
-
-.container4:hover {
     background-color: #FF6699;
 }
+
 
 .container5 {
     font-family: 'Comic Sans MS';
     padding: 10rem 5rem 10rem 10rem;
     margin: 0em 7em 0em 7em;
     color: black;
-}
-
-.container5:hover {
     background-color: #33CCFF;
 }
+
 
 .container6 {
     font-family: 'Impact';
