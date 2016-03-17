@@ -1,0 +1,22 @@
+div {
+	background-color: blue;
+	height:300px;
+	width:100px;
+	margin:0px;
+	float: left;
+}
+
+.hovered {
+	background-color: pink;
+	font-size: 10%;
+	background-position: ori
+}
+
+.mouseovered {
+	background-color: yellow;
+	transform: rotate(30deg);
+}
+
+.clicked {
+	background-color: pink;
+}
