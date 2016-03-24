@@ -14,8 +14,3 @@ $("div").hover(function() {
 	$(this).addClass("mouseovered");
 	
 });
-
-$("div").click(function() {
-	$(this).addClass("clicked");
-
-});
