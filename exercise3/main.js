@@ -12,15 +12,5 @@ sayHello();
 
 $("div").hover(function() {
 	$(this).addClass("mouseovered");
-	var randomcolor = Math.random() * 10000;
-	$(this).css("size", randNumber + "1000px");
-
-}, function() {
-	$(this).removeClass("h");
-});
-
-$("div").click(function() {
-	$(this).addClass("clicked");
-	var randomcolor = Math.random() * 10000;
-	$(this).css("size", randNumber + "1000px");
+	
 });
