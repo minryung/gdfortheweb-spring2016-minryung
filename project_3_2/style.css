@@ -15,6 +15,7 @@ p {
 }
 
 
+
 div.wrap1 {
 	position: absolute;
     left: 900px;
@@ -80,6 +81,73 @@ div.wrap10 {
 }
 
 
+div.wrap11 {
+	position: absolute;
+    left: 1000px;
+    bottom: 500px;
+}
+
+
+div.wrap12 {
+	position: absolute;
+    left: 900px;
+    bottom: 480px;
+}
+
+div.wrap13 {
+	position: absolute;
+    left: 700px;
+    bottom: 600px;
+}
+
+
+div.wrap14 {
+	position: absolute;
+    left: 300px;
+    bottom: 30px;
+}
+
+
+div.wrap15 {
+	position: absolute;
+    left: 0px;
+    bottom: 300px;
+}
+
+div.wrap16 {
+	position: absolute;
+    left: 1000px;
+    bottom: 300px;
+}
+
+div.wrap17 {
+	position: absolute;
+    left: 500px;
+    bottom: 400px;
+}
+
+div.wrap18 {
+	position: absolute;
+    left: 800px;
+    bottom: 300px;
+}
+
+
+div.wrap19 {
+	position: absolute;
+    left: 1000px;
+    bottom: 400px;
+}
+
+
+div.wrap20 {
+	position: absolute;
+    left: 900px;
+    bottom: 20px;
+}
+
+
+
 div.ja {
 	position: absolute;
     left: 50px;
@@ -135,6 +203,14 @@ div.nn {
     left: 540px;
     bottom: 480px;
 }
+
+p.day {
+	position: absolute;
+    left: 800px;
+    bottom: -600px;
+}
+
+
 p.j {
 	position: absolute;
     left: 50px;
