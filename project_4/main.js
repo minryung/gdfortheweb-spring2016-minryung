@@ -12,15 +12,14 @@ sayHello();
 
 $("div").hover(function() {
 	$(this).addClass("mouseovered");
-	var greeting = "Hello " + name; ;
-	$(this).css("size", randNumber + "1000px");
-
-}, function() {
-	$(this).removeClass("h");
-});
+	$(this).html($(this).data("letter"));
+	$(".j").effect( "bounce", {times:3}, 300 );
+ });
 
 $("div").click(function() {
 	$(this).addClass("clicked");
+
+	
 	var randomcolor = Math.random() * 10000;
 	$(this).css("size", randNumber + "1000px");
 });
