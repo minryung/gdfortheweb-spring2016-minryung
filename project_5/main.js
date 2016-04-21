@@ -224,6 +224,12 @@ $(".A").hover(function() {
 	
  });
 
+$(".A").mouseleave(function() {
+	$(this).addClass("mouseleave");
+	$(this).css("fontSize", "15px");
+ });
+
+
 
 
 $(".A").mouseleave(function() {

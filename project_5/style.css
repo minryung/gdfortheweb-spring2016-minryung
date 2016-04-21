@@ -15,10 +15,23 @@ p {
 	font-size: 40px;
 }
 
+
+div.company-image-overlay {
+    height:1000px;
+    width:1000px;
+    margin:0px;
+    float: left;
+    font-size: 15px;
+
+
+}
+
+
 div.wrap1 {
 	position: absolute;
     left: 320px;
     bottom: 680px;
+
 }
 
 div.wrap2 {
@@ -38,7 +51,7 @@ div.wrap3 {
 div.wrap4 {
 	position: absolute;
     left: 1220px;
-    bottom: 460px;
+    bottom: 520px;
 }
 
 div.wrap5 {
@@ -55,8 +68,8 @@ div.wrap6 {
 
 div.wrap7 {
 	position: absolute;
-    left: 620px;
-    bottom: 280px;
+    left: 760px;
+    bottom: 300px;
 }
 
 
@@ -70,7 +83,7 @@ div.wrap8 {
 div.wrap9 {
 	position: absolute;
     left: 820px;
-    bottom: 80px;
+    bottom: 110px;
 }
 
 div.wrap10 {
@@ -168,7 +181,7 @@ div.C {
 div.D {
     position: absolute;
     left: 1200px;
-    bottom: 460px;
+    bottom: 520px;
 }
 
 div.E {
@@ -184,8 +197,8 @@ div.F {
 }
 div.G {
     position: absolute;
-    left: 600px;
-    bottom: 280px;
+    left: 740px;
+    bottom: 300px;
 }
 div.H {
     position: absolute;
@@ -195,7 +208,7 @@ div.H {
 div.I {
     position: absolute;
     left: 800px;
-    bottom: 80px;
+    bottom: 110px;
 }
 div.J {
     position: absolute;
@@ -217,7 +230,7 @@ p.day {
 p.title {
     position: absolute;
     left: 20px;
-    bottom: 700px;
+    bottom: 600px;
 }
 
 
