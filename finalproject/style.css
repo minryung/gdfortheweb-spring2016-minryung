@@ -1,0 +1,181 @@
+
+
+
+
+div {
+	float: left;
+	font-size: 15px;
+
+}
+
+p {
+	height:100px;
+	width:2000px;
+	float: left;
+	font-size: 60px;
+    margin:10px;
+    margin-left:60px;
+}
+
+
+
+#demo {
+    font-size: 500px;
+
+}
+
+
+
+
+p.day {
+	position: absolute;
+    left: 20px;
+    bottom: 600px;
+}
+
+p.title {
+    position: absolute;
+    left: 20px;
+    bottom: 600px;
+}
+
+
+
+p.title2 {
+    position: absolute;
+    left: 580px;
+    bottom: 600px;
+}
+
+
+
+
+
+p.select {
+    position: absolute;
+    left: 300px;
+    bottom: 600px;
+   cursor:url(cusor2.png), auto;
+   border-radius:0px;
+   
+}
+
+p.select select {
+    background: white;
+    width: 260px;
+    font-size: 60px;
+    border-radius:0px;
+    height: 70px;
+    outline:none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor:url(cusor2.png), auto;
+    -webkit-appearance: none;
+    padding-left:10px;
+}
+
+p.title3 {
+    position: absolute;
+    left: 20px;
+    bottom: 500px;
+}
+
+p.select2 {
+    position: absolute;
+    left: 210px;
+    bottom: 500px;
+    cursor:url(cusor2.png), auto;
+    -webkit-appearance: none;
+
+   
+   
+}
+
+p.select2 select {
+    background: white;
+    width: 290px;
+    font-size: 60px;
+    border-radius:0px;
+    height: 70px;
+    outline:none;
+    -moz-appearance: none;
+    appearance: none;
+     cursor:url(cusor2.png), auto;
+     -webkit-appearance: none;
+     padding-left:10px;
+}
+
+
+p.title4 {
+    position: absolute;
+    left: 510px;
+    bottom: 500px;
+}
+
+
+p.select3 {
+    position: absolute;
+    left: 840px;
+    bottom: 500px;
+    cursor:url(cusor2.png), auto;
+    -webkit-appearance: none;
+    
+   
+}
+
+p.select3 select {
+    background: white;
+    width: 250px;
+    font-size: 60px;
+    border-radius:0px;
+    height: 70px;
+    outline:none;
+    -moz-appearance: none;
+    appearance: none;
+     cursor:url(cusor2.png), auto;
+     -webkit-appearance: none;
+    padding-left:10px;
+}
+
+
+p.title5 {
+    position: absolute;
+    left: 20px;
+    bottom: 400px;
+}
+
+
+p.select4 {
+    position: absolute;
+    left: 200px;
+    bottom: 400px;
+    cursor:url(cusor2.png), auto;
+    -webkit-appearance: none;
+    
+   
+}
+
+p.select4 select {
+    background: transparent;
+    width: 260px;
+    font-size: 60px;
+    border-radius:0px;
+    height: 70px;
+    outline:none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor:url(cusor2.png), auto;
+    -webkit-appearance: none;
+    padding-left:10px;
+}
+
+p.title6 {
+    position: absolute;
+    left: 480px;
+    bottom: 400px;
+}
+
+-webkit-appearance: none;
+text-align-last:center;
+
+
