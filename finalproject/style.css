@@ -4,7 +4,8 @@
 
 div {
 	float: left;
-	font-size: 15px;
+	font-size: 100em;
+    position:relative;
 
 }
 
@@ -17,12 +18,6 @@ p {
     margin-left:60px;
 }
 
-
-
-#demo {
-    font-size: 500px;
-
-}
 
 
 
@@ -174,6 +169,13 @@ p.title6 {
     left: 480px;
     bottom: 400px;
 }
+
+
+
+
+
+
+
 
 -webkit-appearance: none;
 text-align-last:center;

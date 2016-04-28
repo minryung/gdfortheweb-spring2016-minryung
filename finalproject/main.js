@@ -11,18 +11,9 @@ function sayHello() {
 sayHello();
 
 
-
-$('.selectstyle').hover(function () {
-    $('.money').show();
-}).mouseout(function () {
-    $('.money').hide();
+$(document).ready(function() {
+	$('#gender').click(function() {
+		$('#sel4').val('strawberry');
+	});
 });
-
-
-
-function myFunction() {
-    var x = document.getElementById("gender").value;
-    document.getElementById("demo").innerHTML = "$";
-    $("#box").animate({height: "300px"});
-}
 
