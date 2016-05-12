@@ -1,0 +1,246 @@
+div {
+	height:50px;
+	width:50px;
+	margin:0px;
+	float: left;
+	font-size: 15px;
+
+
+}
+
+p {
+	height:100px;
+	width:200px;
+	float: left;
+	font-size: 40px;
+}
+
+
+div.company-image-overlay {
+    height:1000px;
+    width:1000px;
+    margin:0px;
+    float: left;
+    font-size: 15px;
+
+
+}
+
+
+div.wrap1 {
+	position: absolute;
+    left: 320px;
+    bottom: 680px;
+
+}
+
+div.wrap2 {
+	position: absolute;
+    left: 600px;
+    bottom: 600px;
+}
+
+
+div.wrap3 {
+	position: absolute;
+    left: 470px;
+    bottom: 500px;
+}
+
+
+div.wrap4 {
+	position: absolute;
+    left: 1220px;
+    bottom: 520px;
+}
+
+div.wrap5 {
+	position: absolute;
+    left: 1020px;
+    bottom: 380px;
+}
+
+div.wrap6 {
+	position: absolute;
+    left: 1120px;
+    bottom: 220px;
+}
+
+div.wrap7 {
+	position: absolute;
+    left: 760px;
+    bottom: 300px;
+}
+
+
+div.wrap8 {
+	position: absolute;
+    left: 520px;
+    bottom: 120px;
+}
+
+
+div.wrap9 {
+	position: absolute;
+    left: 820px;
+    bottom: 110px;
+}
+
+div.wrap10 {
+	position: absolute;
+    left: 1020px;
+    bottom: 60px;
+}
+
+
+div.wrap11 {
+	position: absolute;
+    left: 1220px;
+    bottom: 30px;
+}
+
+
+div.wrap12 {
+	position: absolute;
+    left: 900px;
+    bottom: 480px;
+}
+
+div.wrap13 {
+	position: absolute;
+    left: 700px;
+    bottom: 600px;
+}
+
+
+div.wrap14 {
+	position: absolute;
+    left: 300px;
+    bottom: 30px;
+}
+
+
+div.wrap15 {
+	position: absolute;
+    left: 0px;
+    bottom: 300px;
+}
+
+div.wrap16 {
+	position: absolute;
+    left: 1000px;
+    bottom: 300px;
+}
+
+div.wrap17 {
+	position: absolute;
+    left: 500px;
+    bottom: 400px;
+}
+
+div.wrap18 {
+	position: absolute;
+    left: 800px;
+    bottom: 300px;
+}
+
+
+div.wrap19 {
+	position: absolute;
+    left: 1000px;
+    bottom: 400px;
+}
+
+
+div.wrap20 {
+	position: absolute;
+    left: 900px;
+    bottom: 20px;
+}
+
+
+
+div.A {
+	position: absolute;
+    left: 300px;
+    bottom: 680px;
+}
+
+div.B {
+    position: absolute;
+    left: 580px;
+    bottom: 600px;
+}
+
+div.C {
+    position: absolute;
+    left: 450px;
+    bottom: 500px;
+}
+
+div.D {
+    position: absolute;
+    left: 1200px;
+    bottom: 520px;
+}
+
+div.E {
+    position: absolute;
+    left: 1000px;
+    bottom: 380px;
+}
+
+div.F {
+    position: absolute;
+    left: 1100px;
+    bottom: 220px;
+}
+div.G {
+    position: absolute;
+    left: 740px;
+    bottom: 300px;
+}
+div.H {
+    position: absolute;
+    left: 500px;
+    bottom: 120px;
+}
+div.I {
+    position: absolute;
+    left: 800px;
+    bottom: 110px;
+}
+div.J {
+    position: absolute;
+    left: 1000px;
+    bottom: 60px;
+}
+div.K {
+    position: absolute;
+    left: 1200px;
+    bottom: 30px;
+}
+
+p.day {
+	position: absolute;
+    left: 20px;
+    bottom: 600px;
+}
+
+p.title {
+    position: absolute;
+    left: 20px;
+    bottom: 600px;
+}
+
+
+p.menu1 {
+    position: absolute;
+    left: 20px;
+    bottom: 250px;
+    font-size: 30px;
+}
+
+
+
+

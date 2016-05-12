@@ -1,0 +1,17 @@
+div {
+	background-color: blue;
+	height:300px;
+	width:300px;
+	margin:0px;
+	float: left;
+}
+
+
+.mouseovered {
+	background-color: yellow;
+	transform: rotate(30deg);
+}
+
+.clicked {
+	background-color: pink;
+}
