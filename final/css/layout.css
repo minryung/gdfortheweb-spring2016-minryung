@@ -1,0 +1,125 @@
+
+
+/* #Site Styles
+================================================== */
+
+body {
+    background-color: white;
+    font-family: 'fugueregular',Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    color: black;
+    }
+
+a, a:visited{ color: blue; text-decoration: none; border-bottom: 3px solid blue;}
+a:hover{
+    color:lime;border-bottom: 3px solid lime;}
+
+p {
+    font-size: 35px; line-height: 45px;
+    }
+
+label { 
+    font-weight: normal;
+    font-size: 28px; 
+    line-height: 40px; 
+    margin-bottom: 0px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+    }   
+
+.frame {width:98%;height:1400px;position:absolute; top:1%; left:1%;}
+
+.draggable { 
+    cursor: move; 
+    padding: 1px; 
+    display:none;
+    background-color: #CCC;
+    }
+
+.draggable.dark{ background-color: #333;}
+.draggable.ping{ background-color: transparent;}
+.draggable:hover { background: url('marquee.gif');} 
+.draggable:active { background: url('marquee_red.gif');}
+.draggable img {float:left; }   
+
+
+.shadow { 
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 0px rgba(0, 0, 0, 0.1);
+    }
+    
+.osx { 
+    border-radius: 5px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.6), 0 22px 70px 4px rgba(0,0,0,0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+    background-image:url('../work/offbeat/offbeat_bg.jpg');
+    }   
+    
+
+.work a { text-decoration: none; border: 0px; }
+.work img {width: 100%;float:left;}
+
+
+.slime {
+    background-image:url('../work/slime.gif');
+    }
+    
+    .regular-checkbox {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cacece;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+    padding: 9px;
+    border-radius: 3px;
+    display: inline-block;
+    position: relative;
+    }
+
+.email {
+    position: absolute;
+    display:block;
+    visibility: hidden;
+    background-color: white;
+    border: solid blue 10px;
+    padding: 30px;
+    background-image: none;
+    }
+.email:hover { background-image: none;background-color: white;} 
+.email:active { background-image: none;background-color:white;}
+
+.bio{
+    margin-top: 40px;
+    visibility: visible;
+    }   
+
+/* #Media Queries
+================================================== */
+
+    /* Smaller than standard 960 (devices and browsers) */
+    @media only screen and (max-width: 959px) {}
+
+    /* Tablet Portrait size to standard 960 (devices and browsers) */
+    @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+    /* All Mobile Sizes (devices and browser) */
+    @media only screen and (max-width: 767px) {}
+
+    /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+    /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+    @media only screen and (max-width: 479px) {}
+
+
+/* #Font-Face
+================================================== */
+
+    @font-face {
+    font-family: 'fugueregular';
+    src: url('../fonts/fugue_regular-webfont.eot');
+    src: url('../fonts/fugue_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/fugue_regular-webfont.woff') format('woff'),
+         url('../fonts/fugue_regular-webfont.ttf') format('truetype'),
+         url('../fonts/fugue_regular-webfont.svg#fugueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    }
+

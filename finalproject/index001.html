@@ -2,114 +2,84 @@
 <html>
 <head>
 	<link rel="stylesheet" href="style.css">
+    <script src="jquery-1.12.3.min.js"></script>
+    <script src="main.js"></script>
 
-<style type="text/css">
-body {
-	cursor:url(cusor.png), auto;}
-
-div {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-
-
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 100;
-
-}
-
-
-a:link {
-    color: black;
-    text-decoration: none;
-}
-
-
-</style>
-
-
-
-
-
-</div>
 </head>
 <body>
-</div>
+	<div id="container">
+		Hi, I am a
+		<select id="gender" class="_select0">
+		<option value="hide"></option>
+		<option value="male">Male</option>
+		<option value="female">Female </option>
+		</select>
 
-</div>
+		graphic designer,<br>
+		I am a
+		<select id="ethnics" class="_select1">
+		<option value="hide"></option>
+		<option value="asian">Asian </option>
+		<option value="white">White</option>
+		<option value="hispanic">Hispanic</option>
+		<option value="black">Black</option>
+		<option value="other">Other Pacific</option>
+		</select>
 
-<form>
+		, I am in my
+		<select id="age" class="_select2">
+		<option value="hide"></option>
+		<option value="20s">20s</option>
+		<option value="30s">30s</option>
+		<option value="40s">40s</option>
+		<option value="50s">50s</option>
+		<option value="60s">60s</option>
+		<option value="70s">70s</option>
+		<option value="80s">80s</option>
+		</select>
+		
+		<br>
 
+		I work
+		<select id="hours" class="_select3">
+			<option value="hide"></option>
+			<option value="20h">20hours</option>
+			<option value="18h">18hours</option>
+			<option value="16h">16hours</option>
+			<option value="14h">14hours</option>
+			<option value="12h">12hours</option>
+			<option value="10h">10hours</option>
+			<option value="8h">8hours</option>
+			<option value="7h">7hours</option>
+			<option value="6h">6hours</option>
+			<option value="5h">5hours</option>
+			<option value="4h">4hours</option>
+			<option value="3h">3hours</option>
+			<option value="2h">2hours</option>
+			<option value="1h">1hours</option>
+		</select>
+		in a day,<br>
+		I live in
+			<select id="place" class="_select4">
+			<option value="hide"></option>
+			<option value="california">California</option>
+			<option value="northeast">Northeast</option>
+			<option value="midwest">Midwest</option>
+			<option value="south">South</option>
+			<option value="midAtalntic">Mid-atalntic</option>
+			<option value="pacific">Pacific</option>
+			<option value="sw">SW</option>
+			<option value="mountain">Mountain</option>
+			<option value="texas">Texas</option>
+			</select>
+			.
 
+		My salary is
+		<input type="text" id="salary" value="$" readonly/>
+	</div>
 
-<form id="target" action="destination.html">
-<p class="title">Hi, I am a </p>
+	<div id="background">
 
-<p class="select"><select id="gender" onchange="myFunction()">
-<option value="hide"></option>
-<option value="female">Female </option>
-<option value="male">Male</option>
-a Female </select>
-</p>
-
-<p class="title2">graphic designer,<br></p>
-
-<p class="title3">I am a </p>
-
-<p class="select2"><select id="ethnics" onchange="preferedBrowser()">
-<option value="hide"></option>
-<option value="asian">Asian </option>
-<option value="american">White</option>
-<option value="american">Hispanic</option>
-<option value="american">Black</option>
-<option value="american">Other Pacific</option>
-</select></p>
-
-<p class="title4">, I am in my</p> 
-
-<p class="select3"><select id="age" onchange="preferedBrowser()">
-<option value="hide"></option>
-<option value="graduate">20s</option>
-<option value="undergraduate">30s</option>
-<option value="graduate">40s</option>
-<option value="undergraduate">50s</option>
-<option value="graduate">60s</option>
-<option value="undergraduate">70s</option>
-<option value="graduate">80s</option>
-</select></p><p class="title5">
-I work </p><p class="select4"><select id="hours" onchange="preferedBrowser()">
-<option value="hide"></option>
-<option value="10hours">20hours</option>
-<option value="9hours">18hours</option>
-<option value="9hours">16hours</option>
-<option value="9hours">14hours</option>
-<option value="9hours">12hours</option>
-<option value="9hours">10hours</option>
-<option value="9hours">8hours</option>
-<option value="9hours">7hours</option>
-<option value="9hours">6hours</option>
-<option value="9hours">5hours</option>
-<option value="9hours">4hours</option>
-<option value="9hours">3hours</option>
-<option value="9hours">2hours</option>
-<option value="9hours">1hours</option>
-<option value="9hours">hours</option>
-10hours</select></p><p class="title6">a day,
-</p></form>
-
-
-
-
-
-
-
-</style>
-
-
-
-<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
-	<script src="main.js"></script>
+	</div>
 </body>
 </html>
