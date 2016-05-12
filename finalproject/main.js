@@ -50,13 +50,13 @@ var DOLLAR_AMOUNT = {
 		'1h' : 1
 	},
 	place: {
-		california: 16,
+		california: 30,
 		northeast: 24,
 		midwest: 18,
 		south: 20,
 		midAtalntic: 18,
 		pacific: 20,
-		sw: 30,
+		sw: 16,
 		mountain: 16,
 		texas: 14
 	}
@@ -105,13 +105,13 @@ var SALARY_RATIO = {
 		'1h' : 1
 	},
 	place: {
-		california: 0.85,
+		california: 1,
 		northeast: 0.95,
 		midwest: 0.87,
 		south: 0.90,
 		midAtalntic: 0.93,
 		pacific: 0.90,
-		sw: 1,
+		sw: 0.85,
 		mountain: 0.95,
 		texas: 0.85
 	}
